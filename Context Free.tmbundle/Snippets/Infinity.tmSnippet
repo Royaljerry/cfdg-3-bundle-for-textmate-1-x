@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>infinity()</string>
+	<key>name</key>
+	<string>Infinity</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exc</string>
+	<key>uuid</key>
+	<string>8C1179EF-48B2-403E-956C-210E4FA4A2AA</string>
+</dict>
+</plist>

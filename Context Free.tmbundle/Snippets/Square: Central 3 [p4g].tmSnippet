@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::p4g${1:, ${2:«CENTER X»}, ${3:«CENTER Y»}}</string>
+	<key>name</key>
+	<string>Square: Central 3 [p4g]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symws</string>
+	<key>uuid</key>
+	<string>7B405843-9557-4B49-AB9B-8E2649863ECF</string>
+</dict>
+</plist>

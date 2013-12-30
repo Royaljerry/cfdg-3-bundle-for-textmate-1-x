@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>let(${1:«SEMICOLON SEPARATED 'VAR = EXPR' EXPRESSIONS»}; ${2:«EXPRESSION»})</string>
+	<key>name</key>
+	<string>Let</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exv</string>
+	<key>uuid</key>
+	<string>6E9A5896-8E33-4E00-9CAD-92905DB404BE</string>
+</dict>
+</plist>

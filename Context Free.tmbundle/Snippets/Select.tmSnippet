@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>select(${1:«EXPRESSION»}, ${2:«COMMA SEPARATED EXPRESSIONS»})</string>
+	<key>name</key>
+	<string>Select</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exv</string>
+	<key>uuid</key>
+	<string>B34F9895-ECA5-4C98-A525-41FEDC4CF64E</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::pm, ${1:«MIRROR AXIS»}${2:, ${3:«AXIS POSITION»}}</string>
+	<key>name</key>
+	<string>Rectangular: Simple Reflection [pm]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symwr</string>
+	<key>uuid</key>
+	<string>038D6662-F07E-4F5E-9CAF-D5979A689D4E</string>
+</dict>
+</plist>

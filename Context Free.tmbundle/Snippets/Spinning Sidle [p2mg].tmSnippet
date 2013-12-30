@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::p2mg${1:, ${2:«CENTER X»}, ${3:«CENTER Y»}}</string>
+	<key>name</key>
+	<string>Spinning Sidle [p2mg]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symf</string>
+	<key>uuid</key>
+	<string>8CB672E3-34D9-432A-B1EF-87607F8DDECD</string>
+</dict>
+</plist>

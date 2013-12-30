@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>log10(${1:«NUMBER»})</string>
+	<key>name</key>
+	<string>Decimal Logarithm</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exe</string>
+	<key>uuid</key>
+	<string>3462C5CC-A96F-4B9C-A89E-6679AD401FF8</string>
+</dict>
+</plist>

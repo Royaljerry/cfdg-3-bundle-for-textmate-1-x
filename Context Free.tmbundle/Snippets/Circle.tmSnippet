@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CIRCLE[${1:«ADJUSTMENT»}]</string>
+	<key>name</key>
+	<string>Circle</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>ci</string>
+	<key>uuid</key>
+	<string>DE5FD863-5178-4015-A9A9-C31AF4EC2E46</string>
+</dict>
+</plist>

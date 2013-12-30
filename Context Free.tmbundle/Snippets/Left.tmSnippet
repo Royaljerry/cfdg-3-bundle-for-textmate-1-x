@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>bitleft(${1:«NUMBER 1»}, ${2:«NUMBER 2»})</string>
+	<key>name</key>
+	<string>Left</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exb</string>
+	<key>uuid</key>
+	<string>84878E4C-4E30-4B5F-BF1C-F4C96733197D</string>
+</dict>
+</plist>

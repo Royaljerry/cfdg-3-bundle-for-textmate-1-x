@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::pg, ${1:«GLIDE AXIS»}${2:, ${3:«AXIS POSITION»}}</string>
+	<key>name</key>
+	<string>Rectangular: Glide Reflection [pg]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symwr</string>
+	<key>uuid</key>
+	<string>C29EFC35-40A6-494B-842A-3BC87ED7D0B7</string>
+</dict>
+</plist>

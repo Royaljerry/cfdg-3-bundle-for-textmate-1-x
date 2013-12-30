@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::p3${1:, ${2:«CENTER X»}, ${3:«CENTER Y»}}</string>
+	<key>name</key>
+	<string>Hexagonal: Central 1 [p3]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symwh</string>
+	<key>uuid</key>
+	<string>48CD9A16-EDD2-4839-9720-6694BD381AB7</string>
+</dict>
+</plist>

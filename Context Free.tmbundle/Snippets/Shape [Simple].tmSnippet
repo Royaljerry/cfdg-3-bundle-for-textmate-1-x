@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Description:    ${1:«DESCRIPTION»}
+ *
+${2: *                 ${3:«DETAILED DESCRIPTION»}.
+ *
+}${4: * Usage:          ${5:«USAGE»}
+ *
+}${6: * Dependency:     ${7:«DEPENDENCY»}
+ *
+}${8: *                 Based on the script by ${9:«NAME»}.
+ *                 Taken from ${10:«URL»}.
+ *
+}${11: * ARGUMENT        TYPE                DESCRIPTION
+ *
+${12: * ${13:«ARG»}           ${14:«TYPE»}              ${15:«DESCRIPTION»}
+ *
+}${16: * ${17:«ARG»}           ${18:«TYPE»}              ${19:«DESCRIPTION»}
+ *
+ *                                     Allowed values:
+ *
+ *                                     VALUE               DESCRIPTION
+ *                                     ${20:«VAL»}               ${21:«DESCRIPTION»}
+} *
+}${22: * Todo:           ${23:«TODO»}
+ *                 ${24:«TODO»}
+}*/
+shape ${25:«SHAPE NAME»}${26:(${27:«ARGS»})}
+	$0
+// Shortcuts for $25
+</string>
+	<key>name</key>
+	<string>Shape [Simple]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>shape</string>
+	<key>uuid</key>
+	<string>B43F2A62-850B-4A7F-A907-0595EEAE5859</string>
+</dict>
+</plist>

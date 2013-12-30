@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>MOVEREL(${1:«X»}, ${2:«Y»})</string>
+	<key>name</key>
+	<string>Move Rel</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>move</string>
+	<key>uuid</key>
+	<string>ACE3E787-4836-4DC0-939A-2598447E4E5F</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>symwr</string>
+	<key>name</key>
+	<string>~ Wallpaper Rectangular</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>sym</string>
+	<key>uuid</key>
+	<string>6DC62D52-FFA1-4AD6-82AE-9B8379871F53</string>
+</dict>
+</plist>

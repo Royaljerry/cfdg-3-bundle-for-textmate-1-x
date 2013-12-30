@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::pgg${1:, ${2:«CENTER X»}, ${3:«CENTER Y»}}</string>
+	<key>name</key>
+	<string>Rectangular: Reflection Combo 2 [pgg]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symwr</string>
+	<key>uuid</key>
+	<string>0C8C2E3E-0ABF-45A0-94B0-B919F4613C97</string>
+</dict>
+</plist>

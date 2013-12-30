@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Description:    ${1:«DESCRIPTION»}
+ *
+${2: * ARGUMENT        TYPE                DESCRIPTION
+ *
+${3: * ${4:«ARG»}           ${5:«TYPE»}              ${6:«DESCRIPTION»}
+ *
+}${7: * ${8:«ARG»}           ${9:«TYPE»}              ${10:«DESCRIPTION»}
+ *
+ *                                     Allowed values:
+ *
+ *                                     VALUE               DESCRIPTION
+ *                                     ${11:«VAL»}               ${12:«DESCRIPTION»}
+} *
+}*/</string>
+	<key>name</key>
+	<string>Simple Header</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>com</string>
+	<key>uuid</key>
+	<string>2CEDF6D9-FE85-48CA-81C3-48EBDE1DA83C</string>
+</dict>
+</plist>

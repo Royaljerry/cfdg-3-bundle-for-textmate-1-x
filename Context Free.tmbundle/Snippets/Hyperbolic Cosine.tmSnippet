@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>cosh(${1:«NUMBER»})</string>
+	<key>name</key>
+	<string>Hyperbolic Cosine</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exh</string>
+	<key>uuid</key>
+	<string>8D584606-7BD3-4A9B-AB77-E8102760DAFA</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:x ${2:«X»} y ${3:«Y»} z ${4:«Z»}}${5: r ${6:«ROTATION»}}${7: s ${8:«SIZE X»} ${9:«SIZE Y»} ${10:«SIZE Z»}}${11: skew ${12:«SKEW Y AXIS»} ${13:«SKEW X AXIS»}}${14: f ${15:«FLIPPING AXIS»}}</string>
+	<key>name</key>
+	<string>TRSSF</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>trs</string>
+	<key>uuid</key>
+	<string>33F842C4-27CA-4908-B71F-BCB8970F78A2</string>
+</dict>
+</plist>

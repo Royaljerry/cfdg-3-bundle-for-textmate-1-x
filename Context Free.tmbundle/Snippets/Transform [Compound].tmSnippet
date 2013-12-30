@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>transform [${1:«ADJUSTMENT»}]
+{
+	${2:«BODY»}
+}</string>
+	<key>name</key>
+	<string>Transform [Compound]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>trans</string>
+	<key>uuid</key>
+	<string>9EB0F92E-CC4B-47A5-859A-73DC82195F34</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string> *                 Based on the script by ${1:«NAME»}.
+ *                 Taken from ${2:«URL»}.</string>
+	<key>name</key>
+	<string>Based On</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>com</string>
+	<key>uuid</key>
+	<string>AED8FAB1-015C-4A4B-AF19-B3508D69023E</string>
+</dict>
+</plist>

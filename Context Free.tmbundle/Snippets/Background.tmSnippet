@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::Background = ${1:«ADJUSTMENT ('col' or 'h', 'sat', 'b', 'a')»}</string>
+	<key>name</key>
+	<string>Background</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>E6B58722-9E52-4475-B063-374B47836537</string>
+</dict>
+</plist>

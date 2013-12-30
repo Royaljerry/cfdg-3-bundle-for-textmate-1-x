@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::Cyclic, ${1:«ORDER»}${2:, ${3:«CENTER X»}, ${4:«CENTER Y»}}</string>
+	<key>name</key>
+	<string>Cyclic</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>sym</string>
+	<key>uuid</key>
+	<string>CADDFA7B-B551-4899-B85D-3F52515E4B42</string>
+</dict>
+</plist>

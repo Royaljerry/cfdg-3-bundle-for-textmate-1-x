@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CURVEREL(${1:«X»}, ${2:«Y»}, ${3:«X2»}, ${4:«Y2»}${5:, ${6:«CF::Continuous»}})</string>
+	<key>name</key>
+	<string>Curve Rel (Cubic with Previous CP)</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>curve</string>
+	<key>uuid</key>
+	<string>30174024-28AD-4F67-B9A7-D27C3032BF60</string>
+</dict>
+</plist>

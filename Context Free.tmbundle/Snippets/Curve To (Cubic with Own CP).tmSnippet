@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CURVETO(${1:«X»}, ${2:«Y»}, ${3:«X1»}, ${4:«Y1»}, ${5:«X2»}, ${6:«Y2»})</string>
+	<key>name</key>
+	<string>Curve To (Cubic with Own CP)</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>curve</string>
+	<key>uuid</key>
+	<string>0137F5ED-DD8F-4B57-A721-B106F61499DC</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>atan2(${1:«NUMBER 1 (Y)»}, ${2:«NUMBER 2 (X)»})</string>
+	<key>name</key>
+	<string>Arc-Tangent of Y/X</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>ext</string>
+	<key>uuid</key>
+	<string>F767969F-255B-4040-9A7D-FE31D2EB9554</string>
+</dict>
+</plist>

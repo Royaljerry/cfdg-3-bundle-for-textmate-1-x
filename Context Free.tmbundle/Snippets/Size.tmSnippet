@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::Size = ${1:&lt;ADJUSTMENT ('s', 'x', 'y')»}</string>
+	<key>name</key>
+	<string>Size</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>550F9FB3-5683-4F77-BE3D-015D8FB50C5C</string>
+</dict>
+</plist>

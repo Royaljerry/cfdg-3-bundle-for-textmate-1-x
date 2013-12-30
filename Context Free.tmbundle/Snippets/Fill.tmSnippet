@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>FILL(${1:«FLAGS ('pff')»})${2: [${3:«ADJUSTMENT ('col' or 'h', 'sat', 'b', 'a')»}]}</string>
+	<key>name</key>
+	<string>Fill</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>fill</string>
+	<key>uuid</key>
+	<string>C9A2C36C-3A8D-4ED4-8AAB-3C44836BE8F7</string>
+</dict>
+</plist>

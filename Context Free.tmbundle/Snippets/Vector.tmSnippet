@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>vector${1:«DIMENSION (0…9)»} ${2:«PARAMETER NAME»}</string>
+	<key>name</key>
+	<string>Vector</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>t</string>
+	<key>uuid</key>
+	<string>CBC945C7-16AF-49B3-ADEA-ED2FA0EDE3A8</string>
+</dict>
+</plist>

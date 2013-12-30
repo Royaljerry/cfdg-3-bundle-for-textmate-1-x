@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::EvenOdd</string>
+	<key>name</key>
+	<string>EvenOdd</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>pff</string>
+	<key>uuid</key>
+	<string>3CDF769C-2AB2-48E1-AB8F-FFCE078718CE</string>
+</dict>
+</plist>

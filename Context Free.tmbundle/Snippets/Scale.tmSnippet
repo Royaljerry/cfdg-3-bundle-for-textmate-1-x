@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>s ${1:«SIZE EQUAL OR X»}${2: ${3:«SIZE Y»}${4: ${5:«SIZE Z»}}}</string>
+	<key>name</key>
+	<string>Scale</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>s</string>
+	<key>uuid</key>
+	<string>D6BE1CF8-5E7F-4D07-9EA2-39C795318039</string>
+</dict>
+</plist>

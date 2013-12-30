@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>STROKE(${1:«WIDTH»}, ${2:«FLAGS ('pfs')»})${3: [${4:«ADJUSTMENT ('x', 'y', 'r', 's', 'sk', 'f', 'h', 'sat', 'b', 'a')»}]}</string>
+	<key>name</key>
+	<string>Stroke</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>stroke</string>
+	<key>uuid</key>
+	<string>928DCB8D-96AA-468D-91F8-D918B2786F1A</string>
+</dict>
+</plist>

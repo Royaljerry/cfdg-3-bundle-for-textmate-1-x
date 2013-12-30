@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::RoundJoin</string>
+	<key>name</key>
+	<string>RoundJoin</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>pfs</string>
+	<key>uuid</key>
+	<string>8CA28FB8-8009-4429-90A6-181351C8DE11</string>
+</dict>
+</plist>

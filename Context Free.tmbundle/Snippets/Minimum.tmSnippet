@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>min(${1:«COMMA SEPARATED ARGUMENTS»})</string>
+	<key>name</key>
+	<string>Minimum</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exv</string>
+	<key>uuid</key>
+	<string>68E92458-3DE7-4BFC-A0E3-ED1CC1F51F98</string>
+</dict>
+</plist>

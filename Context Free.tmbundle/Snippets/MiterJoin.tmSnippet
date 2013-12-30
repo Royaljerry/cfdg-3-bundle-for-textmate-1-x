@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::MiterJoin</string>
+	<key>name</key>
+	<string>MiterJoin</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>pfs</string>
+	<key>uuid</key>
+	<string>C88905CA-17B3-4801-8B5F-66F385ED6272</string>
+</dict>
+</plist>

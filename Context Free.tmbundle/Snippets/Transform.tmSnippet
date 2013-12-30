@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>trans ${1:«TRANSFORM X1»}${2: ${3:«TRANSFORM Y1»}${4:${5: ${6:«TRANSFORM X2»} ${7:«TRANSFORM Y2»}}${8: ${9:«TRANSFORM X3»} ${10:«TRANSFORM Y3»}}}}</string>
+	<key>name</key>
+	<string>Transform</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>tf</string>
+	<key>uuid</key>
+	<string>5CCDD336-E5B7-4923-BF06-8FCE8EF0098E</string>
+</dict>
+</plist>

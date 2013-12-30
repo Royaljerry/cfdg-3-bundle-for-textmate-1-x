@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::ButtCap</string>
+	<key>name</key>
+	<string>ButtCap</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>pfs</string>
+	<key>uuid</key>
+	<string>5CBF8E4A-6A3D-473A-8587-9F717A3DB553</string>
+</dict>
+</plist>

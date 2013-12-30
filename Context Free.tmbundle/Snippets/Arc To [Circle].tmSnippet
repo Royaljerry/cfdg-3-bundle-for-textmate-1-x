@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ARCTO(${1:«X»}, ${2:«Y»}, ${3:«RADIUS»}${4:, ${5:«FLAGS ('pfa')»}})</string>
+	<key>name</key>
+	<string>Arc To [Circle]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>arc</string>
+	<key>uuid</key>
+	<string>2D665F5C-DC99-4C6D-8E2A-285976901C96</string>
+</dict>
+</plist>

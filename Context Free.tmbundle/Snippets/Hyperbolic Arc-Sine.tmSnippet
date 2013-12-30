@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>asinh(${1:«NUMBER»})</string>
+	<key>name</key>
+	<string>Hyperbolic Arc-Sine</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exh</string>
+	<key>uuid</key>
+	<string>0D05BDB7-0674-4CD4-81FD-4267E1C0E47E</string>
+</dict>
+</plist>

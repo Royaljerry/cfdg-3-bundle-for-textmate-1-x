@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::p1m1${1:, ${2:«AXIS POSITION»}}</string>
+	<key>name</key>
+	<string>Sidle [p1m1]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symf</string>
+	<key>uuid</key>
+	<string>0D886B44-5037-42E4-8D97-0B23B6F3EFB5</string>
+</dict>
+</plist>

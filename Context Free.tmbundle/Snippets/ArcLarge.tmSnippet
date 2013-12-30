@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::ArcLarge</string>
+	<key>name</key>
+	<string>ArcLarge</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>pfa</string>
+	<key>uuid</key>
+	<string>43DA9364-9855-4CBB-B887-4EBA728BEEFF</string>
+</dict>
+</plist>

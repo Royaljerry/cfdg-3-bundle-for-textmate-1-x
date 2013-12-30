@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>randint(${1:${2:«NUMBER 1»}${3:, ${4:«NUMBER 2»}}})</string>
+	<key>name</key>
+	<string>Dynamic Random Integer</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exr</string>
+	<key>uuid</key>
+	<string>74828F45-FB42-4F89-BAFD-C7DFF52E8047</string>
+</dict>
+</plist>

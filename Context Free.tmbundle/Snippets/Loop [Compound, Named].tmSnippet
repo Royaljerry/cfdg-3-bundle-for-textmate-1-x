@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>loop ${1:«INDEX»} = ${2:«MAXIMUM»} [${3:«ADJUSTMENTS»}]
+{
+	${4:«BODY»}
+}${5:
+finally
+{
+	${6:«BODY»}
+\}}</string>
+	<key>name</key>
+	<string>Loop [Compound, Named]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>loop</string>
+	<key>uuid</key>
+	<string>07C1954C-DB93-4B00-9062-ECAD4AD6B6A1</string>
+</dict>
+</plist>

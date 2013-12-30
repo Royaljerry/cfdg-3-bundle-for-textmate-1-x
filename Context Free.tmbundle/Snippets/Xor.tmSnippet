@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>bitxor(${1:«NUMBER 1»}, ${2:«NUMBER 2»})</string>
+	<key>name</key>
+	<string>Xor</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exb</string>
+	<key>uuid</key>
+	<string>9E458300-F93A-40FE-97D0-48F6D97813F8</string>
+</dict>
+</plist>

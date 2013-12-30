@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>atanh(${1:«NUMBER»})</string>
+	<key>name</key>
+	<string>Hyperbolic Arc-Tangent</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exh</string>
+	<key>uuid</key>
+	<string>CABE9175-FE35-4B42-A835-6E7E8B4CEE7C</string>
+</dict>
+</plist>

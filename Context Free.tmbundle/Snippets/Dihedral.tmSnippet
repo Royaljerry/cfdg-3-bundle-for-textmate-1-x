@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::Dihedral, ${1:«ORDER»}${2:, ${3:«MIRROR ANGLE»}${4:, ${5:«CENTER X»}, ${6:«CENTER Y»}}}</string>
+	<key>name</key>
+	<string>Dihedral</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>sym</string>
+	<key>uuid</key>
+	<string>4546D9CD-EAD5-4FA3-BE31-5D9D99C15DEA</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::pmg, ${1:«MIRROR AXIS»}${2:, ${3:«CENTER X»}, ${4:«CENTER Y»}}</string>
+	<key>name</key>
+	<string>Rectangular: Reflection Combo 3 [pmg]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>symwr</string>
+	<key>uuid</key>
+	<string>3D4EEB6C-8D59-4D0F-8F12-9B9858709DAA</string>
+</dict>
+</plist>

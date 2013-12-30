@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CLOSEPOLY(${1:«CF::Align»})</string>
+	<key>name</key>
+	<string>Close Poly</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>close</string>
+	<key>uuid</key>
+	<string>727B44BE-772D-4122-890F-B5921CE2F415</string>
+</dict>
+</plist>

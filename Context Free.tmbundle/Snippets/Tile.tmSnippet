@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CF::Tile = ${1:«ADJUSTMENT ('x', 'y', 'r', 's', 'sk', 'f')»}</string>
+	<key>name</key>
+	<string>Tile</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>CB26E873-A44A-4355-95E8-78BEE87D7609</string>
+</dict>
+</plist>

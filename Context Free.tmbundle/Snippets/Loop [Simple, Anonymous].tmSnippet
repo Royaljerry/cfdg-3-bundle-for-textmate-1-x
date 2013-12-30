@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>loop ${1:«MAXIMUM»} [${2:«ADJUSTMENTS»}]
+	${3:«BODY»}${4:
+finally
+	${5:«BODY»}}</string>
+	<key>name</key>
+	<string>Loop [Simple, Anonymous]</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>loop</string>
+	<key>uuid</key>
+	<string>B5E91DC7-2992-4912-81FC-0A2329EF8C20</string>
+</dict>
+</plist>

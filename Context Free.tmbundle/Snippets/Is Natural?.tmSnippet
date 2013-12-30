@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>isNatural(${1:«NUMBER»})</string>
+	<key>name</key>
+	<string>Is Natural?</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>exi</string>
+	<key>uuid</key>
+	<string>A06E8DBD-B94E-42DD-B165-8E12262973B1</string>
+</dict>
+</plist>
