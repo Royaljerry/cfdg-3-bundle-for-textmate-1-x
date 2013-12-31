@@ -1,12 +1,14 @@
 /**
- * «Application Name»
+ * «APPLICATION NAME»
  * --------------------------------------------------
- * «Application Description»
+ * «APPLICATION DESCRIPTION»
+ *
+ * Dependency:     «LIBRARY NAME»
  *
  * Context Free v3 Programming
- * © ${TM_YEAR} ${CFDG_AUTHOR_NAME}
- * ${CFDG_AUTHOR_EMAIL}
- * ${CFDG_AUTHOR_URL}
+ * © ${TM_YEAR} ${TM_AUTHOR_NAME}
+ * ${TM_AUTHOR_EMAIL}
+ * ${TM_AUTHOR_URL}
 */
 
 /**

@@ -1,0 +1,86 @@
+/**
+ * ###########################
+ * #                         #
+ * # ContextFree Programming #
+ * #                         #
+ * #    © Adam Pócs 2013     #
+ * #                         #
+ * #  royaljerry@gmail.com   #
+ * #                         #
+ * ###########################
+*/
+
+/**
+ * ###############
+ * # Shortenings #
+ * ###############
+*/
+
+sq = SQUARE
+ci = CIRCLE
+tr = TRIANGLE
+
+/**
+ * ##########
+ * # Frames #
+ * ##########
+*/
+
+/**
+ * Description:    Generic frame drawn from the bottom left corner
+ *
+ * ARGUMENT        TYPE                DESCRIPTION
+ *
+ * fType           Number              Frame type
+ *
+ *                                     allowed values:
+ *
+ *                                     VALUE               DESCRIPTION
+ *                                     0                   Square
+ *                                     1                   Circle
+ *                                     2                   Triangle
+ *
+ * pX              Number              X position of the frame
+ *
+ * pY              Number              Y positon of the frame
+ *
+ * sW              Number              Width of the frame
+ *
+ * sH              Number              Height of the frame
+ *
+ * cStrokeS        Number              Stroke size
+ *
+ * cFill           Number              Fill alpha
+ *
+ *                                     allowed values:
+ *
+ *                                     VALUE               DESCRIPTION
+ *                                     0                   Not filled
+ *                                     Non-0               Alpha value of the fill
+ *
+ * Todo:           Circle
+ *                 Triangle
+ *                 Fill color
+ *                 Stroke flags
+ *                 Inner/middle/outer stroke
+*/
+path fr(fType, pX, pY, sW, sH, cStrokeS, cFill)
+{
+	switch (fType)
+	{
+		case 0:
+		{
+			MOVETO (pX,  pY)
+			LINETO (pX + sW,  pY)
+			LINETO (pX + sW,  pY + sH)
+			LINETO (pX,  pY + sH)
+		}
+	}
+	CLOSEPOLY ()
+	STROKE (cStrokeS) []
+	if (cFill) FILL [a (cFill - 1)]
+}
+
+shape frSq(pX, pY, sW, sH, cStrokeS, cFill) {fr(0, pX, pY, sW, sH, cStrokeS, cFill)[]}
+shape frC(fType, pX, pY, sW, sH, cStrokeS, cFill) {fr(0, pX, pY, sW, sH, cStrokeS, cFill)[x (pX - (sW / 2)) y (pY - (sH / 2))]}
+shape frSqC(pX, pY, sW, sH, cStrokeS, cFill) {frSq(pX, pY, sW, sH, cStrokeS, cFill)[x (pX - (sW / 2)) y (pY - (sH / 2))]}

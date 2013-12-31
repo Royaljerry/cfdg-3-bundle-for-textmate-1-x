@@ -11,14 +11,20 @@ ${2: * ARGUMENT        TYPE                DESCRIPTION
 ${3: * ${4:«ARG»}           ${5:«TYPE»}              ${6:«DESCRIPTION»}
  *
 } *
-}*/</string>
+}*/
+path ${7:«PATH NAME»}${8:(${9:«ARGS»})}
+{
+	${0:«BODY»}
+}
+${10:// Shortcuts for $7}
+</string>
 	<key>name</key>
-	<string>Simple Header</string>
+	<string>Path [With Simple Header]</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>path</string>
 	<key>uuid</key>
-	<string>2CEDF6D9-FE85-48CA-81C3-48EBDE1DA83C</string>
+	<string>B4AA67AD-5539-4751-8142-8E0CC8C17E08</string>
 </dict>
 </plist>

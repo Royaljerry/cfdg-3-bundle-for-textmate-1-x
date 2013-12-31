@@ -3,22 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * Description:    ${1:«DESCRIPTION»}
- *
-${2: * ARGUMENT        TYPE                DESCRIPTION
- *
-${3: * ${4:«ARG»}           ${5:«TYPE»}              ${6:«DESCRIPTION»}
- *
-} *
-}*/</string>
+	<string> * Dependency:     «DEPENDENCY»</string>
 	<key>name</key>
-	<string>Simple Header</string>
+	<string>Dependency</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
 	<string>com</string>
 	<key>uuid</key>
-	<string>2CEDF6D9-FE85-48CA-81C3-48EBDE1DA83C</string>
+	<string>1759938A-D7C7-490A-A7BC-5D44B8AA39D4</string>
 </dict>
 </plist>

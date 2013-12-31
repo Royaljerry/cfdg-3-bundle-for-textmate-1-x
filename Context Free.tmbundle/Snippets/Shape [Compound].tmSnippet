@@ -31,9 +31,9 @@ ${12: * ${13:«ARG»}           ${14:«TYPE»}              ${15:«DESCRIPTION»
 }*/
 shape ${25:«SHAPE NAME»}${26:(${27:«ARGS»})}
 {
-	$0
+	${0:«BODY»}
 }
-// Shortcuts for $25
+${28:// Shortcuts for $25}
 </string>
 	<key>name</key>
 	<string>Shape [Compound]</string>

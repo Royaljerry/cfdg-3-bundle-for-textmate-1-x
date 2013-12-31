@@ -3,22 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * Description:    ${1:«DESCRIPTION»}
- *
-${2: * ARGUMENT        TYPE                DESCRIPTION
- *
-${3: * ${4:«ARG»}           ${5:«TYPE»}              ${6:«DESCRIPTION»}
- *
-} *
-}*/</string>
+	<string>shape ${1:«SHAPE NAME»}${2:(${3:«ARGS»})}
+{
+	${0:«BODY»}
+}</string>
 	<key>name</key>
-	<string>Simple Header</string>
+	<string>Shape [Compound with No Headers]</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>sh</string>
 	<key>uuid</key>
-	<string>2CEDF6D9-FE85-48CA-81C3-48EBDE1DA83C</string>
+	<string>B96B75F7-9496-4292-982B-CDB18195781F</string>
 </dict>
 </plist>

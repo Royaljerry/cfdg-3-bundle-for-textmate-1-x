@@ -1,0 +1,25 @@
+/**
+ * Context Free v3 Programming
+ * © ${TM_YEAR} ${TM_AUTHOR_NAME}
+ * ${TM_AUTHOR_EMAIL}
+ * ${TM_AUTHOR_URL}
+*/
+
+/**
+ * #########
+ * # Start #
+ * #########
+*/
+
+shape start
+{
+	
+}
+
+/**
+ * ####################
+ * # Main Entry Point #
+ * ####################
+*/
+
+startshape start

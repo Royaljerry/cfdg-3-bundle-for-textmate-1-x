@@ -30,8 +30,8 @@ ${12: * ${13:«ARG»}           ${14:«TYPE»}              ${15:«DESCRIPTION»
  *                 ${24:«TODO»}
 }*/
 shape ${25:«SHAPE NAME»}${26:(${27:«ARGS»})}
-	$0
-// Shortcuts for $25
+	${0:«REPLACEMENT»}
+${28:// Shortcuts for $25}
 </string>
 	<key>name</key>
 	<string>Shape [Simple]</string>

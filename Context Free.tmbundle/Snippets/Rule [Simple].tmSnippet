@@ -4,13 +4,13 @@
 <dict>
 	<key>content</key>
 	<string>${1:// ${2:«DESCRIPTION»}
-}rule${3: ${4:«WEIGHT»}} {$0}</string>
+}rule${3: ${4:«WEIGHT»}} {${0:«BODY»}}</string>
 	<key>name</key>
 	<string>Rule [Simple]</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>rule</string>
+	<string>rr</string>
 	<key>uuid</key>
 	<string>D38C9813-6578-4254-9C66-AB6C7355C1E9</string>
 </dict>

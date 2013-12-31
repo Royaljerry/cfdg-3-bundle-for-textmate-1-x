@@ -6,14 +6,14 @@
 	<string>${1:// ${2:«DESCRIPTION»}
 }rule${3: ${4:«WEIGHT»}}
 {
-	$0
+	${0:«BODY»}
 }</string>
 	<key>name</key>
 	<string>Rule [Compound]</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>rule</string>
+	<string>rr</string>
 	<key>uuid</key>
 	<string>EC3768EB-333C-4EB1-815A-1786F475DB89</string>
 </dict>

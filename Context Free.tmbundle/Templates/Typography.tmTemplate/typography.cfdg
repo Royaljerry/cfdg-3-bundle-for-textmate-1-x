@@ -1,0 +1,114 @@
+/**
+ * «APPLICATION NAME»
+ * --------------------------------------------------
+ * «APPLICATION DESCRIPTION»
+ *
+ * Dependency:     glyphs-v2.0
+ *                 typefaces/*
+ *
+ * Context Free v3 Programming
+ * © ${TM_YEAR} ${TM_AUTHOR_NAME}
+ * ${TM_AUTHOR_EMAIL}
+ * ${TM_AUTHOR_URL}
+*/
+
+/**
+ * ##########
+ * # Import #
+ * ##########
+*/
+
+import "../../../../Library/net/royaljerry/standard/geometry-v1.0.cfdg"
+import "../../../../Library/net/royaljerry/standard/math-v1.0.cfdg"
+import "../../../../Library/net/royaljerry/typography/typefaces/alba-v1.0.cfdg"
+import "../../../../Library/net/royaljerry/typography/glyphs-v2.0.cfdg"
+
+/**
+ * ###########################
+ * # Configuration Variables #
+ * ###########################
+*/
+
+/**
+ * ####################
+ * # Global Variables #
+ * ####################
+*/
+
+KRN =              1                   // Kerning
+LNH =              1                   // Line height
+
+/**
+ * ####################
+ * # User Expressions #
+ * ####################
+*/
+
+/**
+ * ##########
+ * # Shapes #
+ * ##########
+*/
+
+/**
+ * Description:    Glyph Pixel
+ *
+ * Dependency:     glyphs-v2.0
+ *                 typefaces/*
+ *
+ * ARGUMENT        TYPE                DESCRIPTION
+ *
+ * «ARG»           «TYPE»              «DESCRIPTION»
+ *
+*/
+shape pixel(cPix, i, j)
+{
+	switch (cPix)
+	{
+		case 0:
+		{
+			
+		}
+		case 1:
+		{
+			atom []
+		}
+	}
+}
+
+/**
+ * Description:    Base of the graphics
+ *
+ *                 This still can be divided into smaller pieces.
+*/
+shape atom
+{
+	core []
+}
+
+/**
+ * Description:    Core item
+ *
+ *                 This is the smallest building block.
+*/
+shape core
+rule {sq[]}
+
+/**
+ * #########
+ * # Start #
+ * #########
+*/
+
+shape start
+{
+	
+}
+
+/**
+ * ####################
+ * # Main Entry Point #
+ * ####################
+*/
+
+startshape start

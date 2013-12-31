@@ -7,13 +7,15 @@
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y\/%m\/%d` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
-      &lt; ad-hoc.cfdg &gt; "$TM_NEW_FILE"
+      &lt; typography.cfdg &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
 	<string>cfdg</string>
+	<key>keyEquivalent</key>
+	<string>~@F</string>
 	<key>name</key>
-	<string>Ad Hoc</string>
+	<string>Typography</string>
 	<key>uuid</key>
-	<string>71A7C51D-1C7A-4610-B8F2-4DB0C433ED79</string>
+	<string>BA586718-0116-4CAE-BFC6-EB6299D3C8F3</string>
 </dict>
 </plist>
