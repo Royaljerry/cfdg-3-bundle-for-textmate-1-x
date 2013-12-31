@@ -21,8 +21,8 @@ Therefore I have created (er… started to create) this missing bundle with a su
 
 **Some features not working yet or need to be fixed/implemented:**
 
-- The "Render" scripts need to be revisited. These are legacy codes I have found in one of the previous bundles, and didn't have the time to fix them, so they are in the bundle rather for “placeholder” purposes.
-- The *TM Language Grammar* is a total chaos (see “Context Free” at the bottom of the bundle). I’m really sorry, this was my first attempt to create/modify a Language Grammar (I love you, property lists…), so it too needs to be revisited once. At least, it works.
+- The “Render” scripts need to be revisited. These are legacy codes I have found in one of the previous bundles, and didn't have the time to fix them, so they are in the bundle rather for “placeholder” purposes.
+- The *TM Language Grammar* is a total chaos (see “Context Free” at the bottom of the bundle). I’m really sorry, this was my first attempt to create/modify a Language Grammar (I love you, property lists…), so it too needs to be revisited once. But it works. Most of the time.
 - The libraries need to be built up at least to a reasonable state – in this form they are rather for experimenting than for real “work”.
 - I’m planning to create a supporting *Color* library that would be responsible for color conversions (HSB/RGB/Grayscale).
 - The same applies to some supporting scripts for “converting” real (and small) pixel images to CF shapes. (Well, mostly based on SQUARE declarations).
