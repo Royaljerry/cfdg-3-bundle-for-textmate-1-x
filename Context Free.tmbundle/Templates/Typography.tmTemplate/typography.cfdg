@@ -61,7 +61,7 @@ LNH =              1                   // Line height
  * «ARG»           «TYPE»              «DESCRIPTION»
  *
 */
-shape pixel(cPix, i, j)
+shape pixel(cPix, pX, pY, i, j)
 {
 	switch (cPix)
 	{

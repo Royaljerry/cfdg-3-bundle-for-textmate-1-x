@@ -855,7 +855,7 @@
 		<key>types</key>
 		<dict>
 			<key>match</key>
-			<string>(number|natural|vector|trans)</string>
+			<string>(number|natural|vector[2-9]|trans)</string>
 			<key>name</key>
 			<string>storage.type.cfdg</string>
 		</dict>
