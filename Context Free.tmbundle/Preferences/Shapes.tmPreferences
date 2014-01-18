@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Startshape</string>
+	<string>Shapes</string>
 	<key>scope</key>
-	<string>entity.name.function.startshape.cfdg</string>
+	<string>entity.name.section.declaration-prod.shape.cfdg</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
 		<key>symbolTransformation</key>
-		<string>s/.*/\t[→] $0/</string>
+		<string>s/(shape\s+)(.*)/\t[S] $2/</string>
 	</dict>
 	<key>uuid</key>
-	<string>3ED35AD0-83CF-4AB4-9224-6984667D3F49</string>
+	<string>563F7F3C-A0BD-4E1E-AA5C-FEB12D7371C6</string>
 </dict>
 </plist>

@@ -7,15 +7,15 @@
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y\/%m\/%d` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
-      &lt; ad-hoc.cfdg &gt; "$TM_NEW_FILE"
+      &lt; library.cfdg &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
 	<string>cfdg</string>
 	<key>keyEquivalent</key>
 	<string>~@F</string>
 	<key>name</key>
-	<string>Ad Hoc</string>
+	<string>Library</string>
 	<key>uuid</key>
-	<string>71A7C51D-1C7A-4610-B8F2-4DB0C433ED79</string>
+	<string>CC4D7D0E-D7F4-42B3-9A7B-5B3E33C200D3</string>
 </dict>
 </plist>

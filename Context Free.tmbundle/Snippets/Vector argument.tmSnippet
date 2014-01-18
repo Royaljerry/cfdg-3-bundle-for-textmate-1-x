@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string> * Usage:          ${1:«USAGE»}</string>
+	<string> * ${1:«ARG»}           Vector${2:«DIMN»}        ${3:«DESCRIPTION»}
+ *                                     INDICES:
+ *                                     ${4:«#»}                 ${5:«DESCRIPTION»}</string>
 	<key>name</key>
-	<string>Usage</string>
+	<string>Vector argument</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
 	<string>c</string>
 	<key>uuid</key>
-	<string>04EBF8F1-E76D-4054-85C9-35D001AAA1B3</string>
+	<string>7B9C5762-FBC7-4C7B-8376-C1C223D5C511</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>import "../../../../Library/net/royaljerry/${1:«VER»}/standard/color.cfdg"$0</string>
+	<string>h ${1:«HUE»}${2: sat ${3:«SATURATION»}${4: b ${5:«BRIGHTNESS»}${6: a ${7:«ALPHA»}}}}</string>
 	<key>name</key>
 	<string>Color</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>import</string>
+	<string>col</string>
 	<key>uuid</key>
-	<string>D77DA1D7-9EA9-4FF8-8775-F7173D1DFC50</string>
+	<string>DF69FC93-4D22-48AF-8B89-A97F6DF69E8E</string>
 </dict>
 </plist>

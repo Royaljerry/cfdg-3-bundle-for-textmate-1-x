@@ -1,10 +1,13 @@
 /**
  * «APPLICATION NAME»
- * --------------------------------------------------
- * «APPLICATION DESCRIPTION»
  *
- * Dependency:     glyphs-v2.0
- *                 typefaces/*
+ * --------------------------------------------------
+ *
+ * «DESCRIPTION»
+ *
+ * Dependency:     typography/glyphs
+ *                 typography/typefaces/*
+ *                 «LIBRARY NAME»
  *
  * Context Free v3 Programming
  * © ${TM_YEAR} ${TM_AUTHOR_NAME}
@@ -18,10 +21,11 @@
  * ##########
 */
 
-import "../../../../Library/net/royaljerry/standard/geometry-v1.0.cfdg"
-import "../../../../Library/net/royaljerry/standard/math-v1.0.cfdg"
-import "../../../../Library/net/royaljerry/typography/typefaces/alba-v1.0.cfdg"
-import "../../../../Library/net/royaljerry/typography/glyphs-v2.0.cfdg"
+import "../../../../Library/net/royaljerry/«VER»/standard/color.cfdg"
+import "../../../../Library/net/royaljerry/«VER»/standard/geometry.cfdg"
+import "../../../../Library/net/royaljerry/«VER»/standard/math.cfdg"
+import "../../../../Library/net/royaljerry/«VER»/typography/typefaces/alba.cfdg"
+import "../../../../Library/net/royaljerry/«VER»/typography/glyphs.cfdg"
 
 /**
  * ###########################
@@ -35,8 +39,8 @@ import "../../../../Library/net/royaljerry/typography/glyphs-v2.0.cfdg"
  * ####################
 */
 
-KRN =              1                   // Kerning
-LNH =              1                   // Line height
+G_KERNING =        1                   // Kerning
+G_LINE_HEIGHT =    1                   // Line height
 
 /**
  * ####################
@@ -53,16 +57,18 @@ LNH =              1                   // Line height
 /**
  * Description:    Glyph Pixel
  *
- * Dependency:     glyphs-v2.0
- *                 typefaces/*
+ * Dependency:     typography/glyphs
+ *                 typography/typefaces/*
  *
  * ARGUMENT        TYPE                DESCRIPTION
  *
  * «ARG»           «TYPE»              «DESCRIPTION»
  *
 */
-shape pixel(cPix, pX, pY, i, j)
+shape pixel(cPix, vector2 pCoordsGl, vector2 pCoordsPx)
 {
+	cPxX =                             pCoordsPx[0]
+	cPxY =                             pCoordsPx[1]
 	switch (cPix)
 	{
 		case 0:
@@ -71,7 +77,7 @@ shape pixel(cPix, pX, pY, i, j)
 		}
 		case 1:
 		{
-			atom []
+			sq[]
 		}
 	}
 }
@@ -93,6 +99,12 @@ shape atom
 */
 shape core
 rule {sq[]}
+
+/**
+ * #########
+ * # Paths #
+ * #########
+*/
 
 /**
  * #########

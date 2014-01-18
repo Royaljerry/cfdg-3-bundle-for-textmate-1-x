@@ -11,6 +11,8 @@
 fi</string>
 	<key>extension</key>
 	<string>cfdg</string>
+	<key>keyEquivalent</key>
+	<string>~@F</string>
 	<key>name</key>
 	<string>Generic</string>
 	<key>uuid</key>

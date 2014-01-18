@@ -12,26 +12,19 @@ ${2: *                 ${3:«DETAILED DESCRIPTION»}.
  *
 }${6: * Dependency:     ${7:«DEPENDENCY»}
  *
-}${8: *                 Based on the script by ${9:«NAME»}.
- *                 Taken from ${10:«URL»}.
+}${8: *                 Based on the script by ${9:«NAME»}
+ *                 taken from ${10:«URL»}.
  *
 }${11: * ARGUMENT        TYPE                DESCRIPTION
  *
 ${12: * ${13:«ARG»}           ${14:«TYPE»}              ${15:«DESCRIPTION»}
  *
-}${16: * ${17:«ARG»}           ${18:«TYPE»}              ${19:«DESCRIPTION»}
- *
- *                                     Allowed values:
- *
- *                                     VALUE               DESCRIPTION
- *                                     ${20:«VAL»}               ${21:«DESCRIPTION»}
-} *
-}${22: * Todo:           ${23:«TODO»}
- *                 ${24:«TODO»}
+}}${16: * ToDo:           ${17:«TODO»}
+ *                 ${18:«TODO»}
 }*/
-shape ${25:«SHAPE NAME»}${26:(${27:«ARGS»})}
+shape ${19:«SHAPE NAME»}${20:(${21:«ARGS»})}
 	${0:«REPLACEMENT»}
-${28:// Shortcuts for $25}
+${22:// Shortcuts for $19}
 </string>
 	<key>name</key>
 	<string>Shape [Simple]</string>

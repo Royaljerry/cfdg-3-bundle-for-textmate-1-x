@@ -15,6 +15,18 @@
 	<array>
 		<dict>
 			<key>include</key>
+			<string>#declaration-shape</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#declaration-path</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#declaration-expr</string>
+		</dict>
+		<dict>
+			<key>include</key>
 			<string>#import</string>
 		</dict>
 		<dict>
@@ -23,15 +35,19 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#declaration</string>
-		</dict>
-		<dict>
-			<key>include</key>
 			<string>#comments</string>
 		</dict>
 		<dict>
 			<key>include</key>
 			<string>#fields</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#chapter-main</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#chapter-sub</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -225,6 +241,36 @@
 			<key>name</key>
 			<string>entity.name.section.cf.symmetry.cfdg</string>
 		</dict>
+		<key>chapter-main</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>comment.other.chapter.main.name.cfdg</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>([ \t]*\*[ \t]*#[ \t]*)([^#\n]*)( [ \t]*#)</string>
+			<key>name</key>
+			<string>comment.other.chapter.main.cfdg</string>
+		</dict>
+		<key>chapter-sub</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>comment.other.chapter.sub.name.cfdg</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>([ \t]*\*[ \t]*---[ \t]*)([^\n]*)( [ \t]*---)</string>
+			<key>name</key>
+			<string>comment.other.chapter.sub.cfdg</string>
+		</dict>
 		<key>comments</key>
 		<dict>
 			<key>patterns</key>
@@ -338,6 +384,14 @@
 							<key>include</key>
 							<string>#fields</string>
 						</dict>
+						<dict>
+							<key>include</key>
+							<string>#chapter-main</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#chapter-sub</string>
+						</dict>
 					</array>
 				</dict>
 			</array>
@@ -345,97 +399,152 @@
 		<key>controls</key>
 		<dict>
 			<key>match</key>
-			<string>(loop|if|switch|case|else|finally|transform)</string>
+			<string>\b(loop|if|switch|case|else|finally|transform)\b</string>
 			<key>name</key>
 			<string>keyword.control.cfdg</string>
 		</dict>
-		<key>declaration</key>
+		<key>declaration-expr</key>
 		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.section.declaration.type.cfdg</string>
+					<string>entity.name.section.declaration-expr.name.cfdg</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.section.declaration.name.cfdg</string>
+					<string>entity.name.section.declaration-expr.params.cfdg</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#types</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#comments</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#fields</string>
+						</dict>
+					</array>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(shape|path)\s++([a-zA-Z_][a-zA-Z_\-\.\d]*+)\s*(\()*</string>
+			<string>\b([a-zA-Z_][a-zA-Z_\-\.\d]*+)\b\s*\(([^\(\)]*+)\)\s*=</string>
 			<key>name</key>
-			<string>entity.name.section.declaration.cfdg</string>
+			<string>entity.name.section.declaration-expr.cfdg</string>
+		</dict>
+		<key>declaration-path</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.section.declaration-prod.type.cfdg</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.section.declaration-prod.name.cfdg</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(path)\b\s++([a-zA-Z_][a-zA-Z_\-\.\d]*)</string>
+			<key>name</key>
+			<string>entity.name.section.declaration-prod.path.cfdg</string>
+		</dict>
+		<key>declaration-shape</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.section.declaration-prod.type.cfdg</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.section.declaration-prod.name.cfdg</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(shape)\b\s++([a-zA-Z_][a-zA-Z_\-\.\d]*)</string>
+			<key>name</key>
+			<string>entity.name.section.declaration-prod.shape.cfdg</string>
 		</dict>
 		<key>directives</key>
 		<dict>
 			<key>match</key>
-			<string>(import|startshape)</string>
+			<string>\b(import|startshape)\b</string>
 			<key>name</key>
 			<string>keyword.other.directive.cfdg</string>
 		</dict>
 		<key>exp-animation</key>
 		<dict>
 			<key>match</key>
-			<string>(frame|ftime)</string>
+			<string>\b(frame|ftime)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.animation.cfdg</string>
 		</dict>
 		<key>exp-binary</key>
 		<dict>
 			<key>match</key>
-			<string>(bitand|bitleft|bitnot|bitor|bitright|bitxor)</string>
+			<string>\b(bitand|bitleft|bitnot|bitor|bitright|bitxor)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.binary.cfdg</string>
 		</dict>
 		<key>exp-constants</key>
 		<dict>
 			<key>match</key>
-			<string>(infinity)</string>
+			<string>\b(infinity)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.constants.cfdg</string>
 		</dict>
 		<key>exp-exponential</key>
 		<dict>
 			<key>match</key>
-			<string>(exp|log|log10|sqrt)</string>
+			<string>\b(exp|log|log10|sqrt)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.exponential.cfdg</string>
 		</dict>
 		<key>exp-hyperbolic</key>
 		<dict>
 			<key>match</key>
-			<string>(acosh|asinh|atanh|cosh|sinh|tanh)</string>
+			<string>\b(acosh|asinh|atanh|cosh|sinh|tanh)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.hyperbolic.cfdg</string>
 		</dict>
 		<key>exp-integer</key>
 		<dict>
 			<key>match</key>
-			<string>(div|divides|factorial|floor|isNatural|mod)</string>
+			<string>\b(div|divides|factorial|floor|isNatural|mod)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.integer.cfdg</string>
 		</dict>
 		<key>exp-random</key>
 		<dict>
 			<key>match</key>
-			<string>(rand|randint|rand_static)</string>
+			<string>\b(rand|randint|rand_static)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.random.cfdg</string>
 		</dict>
 		<key>exp-trigonometry</key>
 		<dict>
 			<key>match</key>
-			<string>(acos|asin|atan|atan2|cos|sin|tan)</string>
+			<string>\b(acos|asin|atan|atan2|cos|sin|tan)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.trigonometry.cfdg</string>
 		</dict>
 		<key>exp-value</key>
 		<dict>
 			<key>match</key>
-			<string>(abs|if|let|max|min|select|sg)</string>
+			<string>\b(abs|if|let|max|min|select|sg)\b</string>
 			<key>name</key>
 			<string>entity.name.function.expression.value.cfdg</string>
 		</dict>
@@ -558,14 +667,14 @@
 		<key>pathoperations</key>
 		<dict>
 			<key>match</key>
-			<string>(ARCREL|ARCTO|CLOSEPOLY|CURVEREL|CURVETO|FILL|LINEREL|LINETO|MOVEREL|MOVETO|STROKE)</string>
+			<string>\b(ARCREL|ARCTO|CLOSEPOLY|CURVEREL|CURVETO|FILL|LINEREL|LINETO|MOVEREL|MOVETO|STROKE)\b</string>
 			<key>name</key>
 			<string>keyword.other.pathoperation.cfdg</string>
 		</dict>
 		<key>productions</key>
 		<dict>
 			<key>match</key>
-			<string>(shape|rule|path)</string>
+			<string>\b(shape|rule|path)\b</string>
 			<key>name</key>
 			<string>keyword.other.production.cfdg</string>
 		</dict>
@@ -848,14 +957,14 @@
 		<key>terminals</key>
 		<dict>
 			<key>match</key>
-			<string>(SQUARE|CIRCLE|TRIANGLE)</string>
+			<string>\b(SQUARE|CIRCLE|TRIANGLE)\b</string>
 			<key>name</key>
 			<string>keyword.other.terminal.cfdg</string>
 		</dict>
 		<key>types</key>
 		<dict>
 			<key>match</key>
-			<string>(number|natural|vector[2-9]|trans)</string>
+			<string>\b(number|natural|vector[2-9]|trans)\b</string>
 			<key>name</key>
 			<string>storage.type.cfdg</string>
 		</dict>

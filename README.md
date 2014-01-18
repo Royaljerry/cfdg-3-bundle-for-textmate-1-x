@@ -30,6 +30,13 @@ Happy new year, folks.
 
 ## <a name="updates">Updates</a>
 
+**01/18/2014**
+
+- Updated and added new templates.
+- Updated some shortcut keys.
+- Updated grammar so that it highlights unique main and subchapter headers (type “c” and Tab to see it in action).
+- Some minor bug fixes and corrections.
+
 **01/03/2014**
 
 - Removed libraries (included in the initial commit), they’ll be published in a separate repo when they’re out of the embryonic phase. (The still existing *Typography* template remained in the bundle for future compatibility.)

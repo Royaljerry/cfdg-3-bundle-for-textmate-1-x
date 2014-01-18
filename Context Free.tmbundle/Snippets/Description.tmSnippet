@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>c</string>
 	<key>uuid</key>
 	<string>003163BA-DFA4-4116-A4E2-E60FBA715D0A</string>
 </dict>

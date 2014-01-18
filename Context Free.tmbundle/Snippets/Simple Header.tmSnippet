@@ -8,16 +8,15 @@
  *
 ${2: * ARGUMENT        TYPE                DESCRIPTION
  *
-${3: * ${4:«ARG»}           ${5:«TYPE»}              ${6:«DESCRIPTION»}
- *
-} *
-}*/</string>
+${3: * ${4:«ARG»}           ${5:«TYPE»}              ${6:«DESCRIPTION»}}
+}*/
+$0</string>
 	<key>name</key>
 	<string>Simple Header</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>c</string>
 	<key>uuid</key>
 	<string>2CEDF6D9-FE85-48CA-81C3-48EBDE1DA83C</string>
 </dict>

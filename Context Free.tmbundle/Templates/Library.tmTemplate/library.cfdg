@@ -1,5 +1,5 @@
 /**
- * «APPLICATION NAME»
+ * «LIBRARY NAME» library for Context Free v3.x
  *
  * --------------------------------------------------
  *
@@ -18,10 +18,6 @@
  * # Import #
  * ##########
 */
-
-import "../../../../Library/net/royaljerry/«VER»/standard/color.cfdg"
-import "../../../../Library/net/royaljerry/«VER»/standard/geometry.cfdg"
-import "../../../../Library/net/royaljerry/«VER»/standard/math.cfdg"
 
 /**
  * ###########################
@@ -42,32 +38,7 @@ import "../../../../Library/net/royaljerry/«VER»/standard/math.cfdg"
 */
 
 /**
- * ##########
- * # Shapes #
- * ##########
-*/
-
-/**
- * #########
- * # Paths #
- * #########
-*/
-
-/**
- * #########
- * # Start #
- * #########
-*/
-
-shape start
-{
-	
-}
-
-/**
  * ####################
- * # Main Entry Point #
+ * # Shapes and Paths #
  * ####################
 */
-
-startshape start

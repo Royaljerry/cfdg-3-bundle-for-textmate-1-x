@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${1:«LIBRARY NAME»} library for Context Free v3.x
+ * v${2:«VER»}
+ *
+ * --------------------------------------------------
+ *
+ * ${3:«DESCRIPTION»}
+ *
+ * Dependency:     ${4:«LIBRARY NAME»}
+ *
+ * Context Free v3 Programming
+ * © ${5:«YEAR»} ${TM_AUTHOR_NAME}
+ * ${TM_AUTHOR_EMAIL}
+ * ${TM_AUTHOR_URL}
+ *
+ * ToDo
+ * ----
+ *
+ * «TODO ITEM»
+*/
+$0
+</string>
+	<key>name</key>
+	<string>Library Header</string>
+	<key>scope</key>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>c</string>
+	<key>uuid</key>
+	<string>EDD4D09E-3317-4DE9-98A7-D5AB82804C25</string>
+</dict>
+</plist>

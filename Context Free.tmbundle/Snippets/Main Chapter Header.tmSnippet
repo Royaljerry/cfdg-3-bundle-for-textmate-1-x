@@ -3,14 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>import "../../../../Library/net/royaljerry/${1:«VER»}/standard/color.cfdg"$0</string>
+	<string>/**
+ * ##################
+ * # ${1:«CHAPTER NAME»} #
+ * ##################
+*/
+$0</string>
 	<key>name</key>
-	<string>Color</string>
+	<string>Main Chapter Header</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>import</string>
+	<string>c</string>
 	<key>uuid</key>
-	<string>D77DA1D7-9EA9-4FF8-8775-F7173D1DFC50</string>
+	<string>B6FD288B-2BC8-40FE-AC75-7AB464B4FDA2</string>
 </dict>
 </plist>

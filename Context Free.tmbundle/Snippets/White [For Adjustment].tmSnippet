@@ -2,16 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>h 0 sat 0 b 100 a 100</string>
 	<key>name</key>
-	<string>Declaration</string>
+	<string>White [For Adjustment]</string>
 	<key>scope</key>
-	<string>entity.name.section.declaration.name.cfdg</string>
-	<key>settings</key>
-	<dict>
-		<key>showInSymbolList</key>
-		<integer>1</integer>
-	</dict>
+	<string>source.context-free</string>
+	<key>tabTrigger</key>
+	<string>col</string>
 	<key>uuid</key>
-	<string>563F7F3C-A0BD-4E1E-AA5C-FEB12D7371C6</string>
+	<string>AA79EF34-843F-4C22-8CB1-8289BF8ECD05</string>
 </dict>
 </plist>

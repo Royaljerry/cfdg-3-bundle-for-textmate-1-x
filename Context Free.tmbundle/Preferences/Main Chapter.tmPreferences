@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Startshape</string>
+	<string>Main Chapter</string>
 	<key>scope</key>
-	<string>entity.name.function.startshape.cfdg</string>
+	<string>comment.other.chapter.main.name.cfdg</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
 		<key>symbolTransformation</key>
-		<string>s/.*/\t[→] $0/</string>
+		<string>s/.*/### $0/</string>
 	</dict>
 	<key>uuid</key>
-	<string>3ED35AD0-83CF-4AB4-9224-6984667D3F49</string>
+	<string>3953A3E5-7C66-41DC-969B-728FD15B8AA5</string>
 </dict>
 </plist>

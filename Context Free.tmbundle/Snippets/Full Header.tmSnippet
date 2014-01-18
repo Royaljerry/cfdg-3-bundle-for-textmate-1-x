@@ -12,29 +12,23 @@ ${2: *                 ${3:«DETAILED DESCRIPTION»}.
  *
 }${6: * Dependency:     ${7:«DEPENDENCY»}
  *
-}${8: *                 Based on the script by ${9:«NAME»}.
- *                 Taken from ${10:«URL»}.
+}${8: *                 Based on the script by ${9:«NAME»}
+ *                 taken from ${10:«URL»}
  *
 }${11: * ARGUMENT        TYPE                DESCRIPTION
  *
 ${12: * ${13:«ARG»}           ${14:«TYPE»}              ${15:«DESCRIPTION»}
  *
-}${16: * ${17:«ARG»}           ${18:«TYPE»}              ${19:«DESCRIPTION»}
- *
- *                                     Allowed values:
- *
- *                                     VALUE               DESCRIPTION
- *                                     ${20:«VAL»}               ${21:«DESCRIPTION»}
-} *
-}${22: * Todo:           ${23:«TODO»}
- *                 ${24:«TODO»}
-}*/</string>
+}}${16: * ToDo:           ${17:«TODO»}
+ *                 ${18:«TODO»}
+}*/
+$0</string>
 	<key>name</key>
 	<string>Full Header</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>c</string>
 	<key>uuid</key>
 	<string>10FAF4AC-2CCE-4CA5-9C2A-E532B3EB6270</string>
 </dict>

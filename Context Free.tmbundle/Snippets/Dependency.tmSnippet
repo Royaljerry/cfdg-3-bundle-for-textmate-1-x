@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string> * Dependency:     «DEPENDENCY»</string>
+	<string> * Dependency:     ${1:«DEPENDENCY»}</string>
 	<key>name</key>
 	<string>Dependency</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>c</string>
 	<key>uuid</key>
 	<string>1759938A-D7C7-490A-A7BC-5D44B8AA39D4</string>
 </dict>

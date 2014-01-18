@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string> *                 ${1:«TODO»}</string>
 	<key>name</key>
-	<string>Todo Item</string>
+	<string>ToDo Item</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>c</string>
 	<key>uuid</key>
 	<string>5CFFC5B1-72A8-4AFB-BE13-DB603F9614F6</string>
 </dict>

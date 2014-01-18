@@ -4,17 +4,14 @@
 <dict>
 	<key>content</key>
 	<string> * ${1:«ARG»}           ${2:«TYPE»}              ${3:«DESCRIPTION»}
- *
- *                                     Allowed values:
- *
- *                                     VALUE               DESCRIPTION
+ *                                     ALLOWED VALUES:
  *                                     ${4:«VAL»}               ${5:«DESCRIPTION»}</string>
 	<key>name</key>
 	<string>Restricted Argument</string>
 	<key>scope</key>
 	<string>source.context-free</string>
 	<key>tabTrigger</key>
-	<string>com</string>
+	<string>c</string>
 	<key>uuid</key>
 	<string>484902F5-E735-4A8E-9F42-2BC1C423012D</string>
 </dict>
